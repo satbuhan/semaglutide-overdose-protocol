@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semaglutide Overdose — Recognition &amp; Management</title>
+<meta name="description" content="An interactive, referenced walkthrough of the algorithm for suspected semaglutide overdose or intoxication — falsified-product recognition, risk stratification, and why there is no antidote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=1">
+<link rel="stylesheet" href="https://satbuhan.github.io/clinical-algorithm-atlas/assets/chat-widget.css?v=2">
+<link rel="stylesheet" href="https://satbuhan.github.io/clinical-algorithm-atlas/assets/calculator-widget.css?v=1">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+</head>
+<body>
+
+<a class="top-nav" href="https://satbuhan.github.io/clinical-algorithm-atlas/">← Clinical Algorithm Atlas</a>
+
+<header class="masthead">
+  <h1>Semaglutide Overdose: Recognition &amp; Management</h1>
+  <p class="masthead__byline">
+    <strong>Dr. Özgür Karcıoğlu</strong> &amp; <strong>Dr. Satuk Buğra Han Bozatlı</strong>
+    &nbsp;— select any box below to read the reasoning and sources behind that step.
+  </p>
+  <p class="masthead__disclaimer">
+    Educational / academic reference tool, not a substitute for institutional protocol or
+    clinical judgement at the bedside. Thresholds and management shown reflect the algorithm
+    as authored; verify against current local protocol before clinical use.
+  </p>
+</header>
+
+<main>
+  <div class="workstation">
+    <section class="scope" aria-label="Interactive flowchart">
+      <p class="scope__hint">Scroll sideways and pinch to zoom — this is the full diagram, same as on desktop.</p>
+      <div class="flow" id="flow">
+        <svg class="edges" id="edges" aria-hidden="true"></svg>
+        <!-- nodes are rendered here by app.js from content.js -->
+      </div>
+    </section>
+
+    <aside class="readout" id="readout" aria-live="polite">
+      <button class="readout__close" id="readoutClose" type="button">Close ✕</button>
+      <div class="readout__idle" id="readoutIdle">
+        Select any box in the diagram to see what it means, why the protocol
+        calls for it, and the sources behind it.
+      </div>
+      <div id="readoutContent" hidden></div>
+    </aside>
+  </div>
+
+  <div class="scope-backdrop" id="backdrop"></div>
+
+  <section class="references" aria-label="References">
+    <details id="references">
+      <summary>References <span class="count" id="refCount"></span></summary>
+      <ol id="referencesList"></ol>
+    </details>
+  </section>
+
+  <p class="abbrev-note">
+    AKI, acute kidney injury; ECG, electrocardiogram; ED, emergency department;
+    GLP-1, glucagon-like peptide-1; IV, intravenous; K⁺, potassium;
+    Mg²⁺, magnesium; POCUS, point-of-care ultrasound;
+    SGLT2, sodium–glucose cotransporter 2.
+  </p>
+</main>
+
+<footer class="site">
+  <a href="https://satbuhan.github.io/clinical-algorithm-atlas/" target="_blank" rel="noopener">← Clinical Algorithm Atlas</a>
+  <span>Built as a companion to the other protocols, same methodology.</span>
+  <a href="https://github.com/satbuhan" target="_blank" rel="noopener">github.com/satbuhan</a>
+  <a href="https://github.com/satbuhan/semaglutide-overdose-protocol/issues/new" target="_blank" rel="noopener">Report an issue</a>
+  <span>CC BY-NC-SA 4.0</span>
+</footer>
+
+<script src="assets/content.js?v=1"></script>
+<script src="assets/app.js?v=1"></script>
+<script defer src="https://satbuhan.github.io/clinical-algorithm-atlas/assets/chat-widget.js?v=2"></script>
+<script defer src="https://satbuhan.github.io/clinical-algorithm-atlas/assets/calculator-widget.js?v=1"></script>
+</body>
+</html>
